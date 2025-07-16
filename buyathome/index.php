@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Escolha Perfeita</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -104,23 +105,16 @@
 
   <!-- NAVBAR -->
   <div class="navbar">
-    <img src="./img/logo.jpg" alt="BuyAtHome Logo" class="logo">
-    <div class="title">Escolha Perfeita</div>
-    <div class="coins">
-      <img src="coin_icon.png" alt="Moeda"> BuyathCoins: <span id="coin-count">8</span>
-    </div>  
+    <img src="./img/logo.jpg" alt="BuyAtHome Logo" class="logo"> 
   </div>
 
   <!-- CONTEÚDO PRINCIPAL -->
-  <div class="container">
-    <div class="question">Qual é o sua Bebida favorita ?</div>
-    <div class="options">
-      <button class="option"></button>
-      <button class="option"></button>
-      <button class="option"></button>
-      <button class="option"></button>
-    </div>
-  </div>
+  <form class="form-cpf">
+    <label for="cpf">Digite seu CPF:</label>
+    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+  </form>
+
+  <button class="btn-confirmar">Confirmar</button>
 
   <!-- BOTÃO DE AJUDA -->
   <button class="help-button">Preciso de ajuda ?</button>
