@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+.body-login {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff8f1;
+    padding-left: 12%;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+    width: 100%;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(255, 186, 123, 0.2);
+    border-radius: 10px;
+}
+
+.tit {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ff8a3d;
+    margin-bottom: 15px;
+}
+
+.descrit {
+    color: #999;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    position: absolute;
+    left: 12px;
+    top: -10px;
+    font-size: 13px;
+    color: #aaa;
+    background-color: #fff;
+    padding: 0 6px;
+}
+
+.input-box input {
+    width: 95%;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    color: #555;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.input-box input:focus {
+    border-color: #ffb97b;
+    box-shadow: 0 0 0 2px rgba(255, 186, 123, 0.3);
+}
+
+.btn {
+    width: 100%;
+    height: 42px;
+    background: #ffb97b;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffc999;
+    box-shadow: 0 3px 8px rgba(255, 186, 123, 0.4);
+}
+
+.bt {
+    width: 100%;
+    height: 38px;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+}
+
+.bt:hover {
+    background-color: #f0e7e0;
+}
+
+.bt img {
+    margin-right: 8px;
+}
+
+.back-links {
+    color: #444;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.2s ease;
+}
+
+.back-links:hover {
+    color: #ff9e56;
+}
+
+.remember-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.remember-forgot a {
+    color: #ff4d4d;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.remember-forgot a:hover {
+    color: #ff1a1a;
+}
+
+.account {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.account .account-title {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.account .account-link {
+    color: #ff7c2e;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+    transition: color 0.3s ease;
+}
+
+.account .account-link:hover {
+    color: #ff974a;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.linha-1, .linha-2 {
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.p1 {
+    margin: 0 10px;
+    color: #aaa;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 60%;
+    height: auto;
+}
+
+.botao-login {
+    all: unset;
+    z-index: 100;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsividade */
+@media (max-width: 1366px) {
+    .image-container {
+        display: none;
+    }
+    .forms {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        display: none;
+    }
+    .forms {
+        margin-left: -6%;
+        font-size: 3vw;
+    }
+    .remember-forgot {
+        font-size: 3vw;
+    }
+    .account {
+        font-size: 3vw;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .forms {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .image-container {
+        display: none;
+    }
+    .forms {
+        margin-right: 20%;
+        font-size: 3vw;
+    }
+    .remember-forgot {
+        font-size: 3vw;
+    }
+}
