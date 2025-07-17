@@ -43,6 +43,10 @@ CREATE TABLE IF NOT EXISTS usuarios (
     email VARCHAR(100) NOT NULL UNIQUE,
     senha VARCHAR(255) NOT NULL
 );
+CREATE TABLE IF NOT EXISTS pergunta (
+    descricao TEXT NOT NULL,
+    resposta TEXT NOT NULL,
+);
 
 
 -- Inserção inicial da moeda (padrão R$1,00)
