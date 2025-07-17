@@ -12,7 +12,7 @@
     <div class="Task2a-container">
         <div class="Task2a-card">
             <a class="logo" href="../../../../home.php">
-                <img src="./img/images.png" alt="Logo" class="Task2a-logo">
+                <img src="./src/img/images.png" alt="Logo" class="Task2a-logo">
             </a>
             <h2 class="Task2a-title">Crie sua conta</h2>
             <p class="Task2a-description">Digite seu e-mail para criar sua conta</p>

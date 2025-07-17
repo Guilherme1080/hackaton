@@ -11,7 +11,7 @@
 <body class="body-login">
     <div class="forms">
         <form method="POST" class="login-form" id="login-form">
-            <a href="/Tweeb-2025/PI/home.php" class="back-links"><i class='bx bx-chevron-left'></i> Voltar</a>
+            <a href="./index.php" class="back-links"><i class='bx bx-chevron-left'></i> Voltar</a>
             <h1 class="tit">Login</h1>
             <p class="descrit">Faça login para acessar sua conta.</p>
 
@@ -42,19 +42,10 @@
                 <h6 class="account-title">Não tem uma Conta?</h6>
                 <a class="account-link" href="cadastro.php">Cadastre-se</a>
             </div>
-
-            <div class="linha">
-                <p class="linha-1"></p>
-                <p class="p1">Ou faça login com</p>
-                <p class="linha-2"></p>
-            </div>
-
-            <button type="button" class="bt"><img src="/Tweeb-2025/PI/public/assets/img/Google.png" alt="">Google</button>
-            <a href="/Tweeb-2025/PI/app/adm/Views/pages/login-funcionario.php"><button type="button" class="bt">Corporativo</button></a>
         </form>
     </div>
     <div class="image-container">
-        <img src="./img/chocolate.jpg" alt="img-login" class="login-image">
+        <img src="./src/img/chocolate.jpg" alt="img-login" class="login-image">
     </div>
     <script src="../../../../public/js/lembrarSenhaUser.js"></script>
     <script src="../../../../public/js/login-usuario.js"></script>

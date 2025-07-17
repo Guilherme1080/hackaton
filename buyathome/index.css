@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    text-align: left;
+}
+
+.logo {
+    width: 80px;
+    margin: 10px 0 0 20px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    font-size: 26px;
+    padding: 12px;
+    width: 320px;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.links {
+    align-self: flex-start;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.links a {
+    display: block;
+    color: blue;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ajuda {
+    background-color: transparent;
+    border: 2px solid #00ffcc;
+    color: #00cc99;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-left: 20px;
+    box-shadow: 0 0 5px #00ffcc;
+    cursor: pointer;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.negado {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.confirmar {
+    background-color: limegreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.a{
+    display: flex;
+    text-decoration: none;
+}
