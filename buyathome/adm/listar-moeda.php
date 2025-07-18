@@ -525,8 +525,9 @@ tr:last-child td {
         <li><a href="./listar-promo.php">🔥 Promoções</a></li>
         <li><a href="./listar-combo.php">🎁 Combos</a></li>
         <li><a href="#">💰 Moeda Diária</a></li>
+        <li><a href="./pergunta-dia.php">❓ Pergunta do Dia</a></li>
         <div class="logout">
-            <a href="logout.php">🚪 Sair</a>
+            <a href="../home4.php">🚪 Sair</a>
         </div>
       </ul>
     </aside>
@@ -535,18 +536,48 @@ tr:last-child td {
       <div class="grid-container">
         <!-- Produto -->
         <div class="form-wrapper">
-                <form class="form-section" action="moeda_crud.php" method="post">
-                    <h3 class="tit">Valor da Moeda Diária</h3>
+                <!-- FORMULÁRIO DE ATUALIZAÇÃO DA MOEDA -->
+                <form class="form-section" action="#" method="post">
+                <h3 class="tit">Valor da Moeda Diária</h3>
 
-                    <div class="input-box">
-                        <label for="valor_moeda">Valor (R$)</label>
-                        <input type="number" step="0.01" name="valor_moeda" id="valor_moeda" required>
-                    </div>
+                <div class="input-box">
+                    <label for="valor_moeda">Valor (R$)</label>
+                    <input type="number" step="0.01" name="valor_moeda" id="valor_moeda" required>
+                </div>
 
-                    <button type="submit" class="btn">Atualizar Valor</button>
+                <button type="submit" class="btn">Atualizar Valor</button>
                 </form>
-            </div>
-        </div>
+
+                <!-- TABELA COM VALORES CADASTRADOS -->
+        <div class="product-list-section">
+  <h3>Produtos Cadastrados com Moedas</h3>
+  <div class="tabela-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Imagem</th>
+          <th>Nome do Produto</th>
+          <th>Valor em Moedas</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="../src/img/OIP (3).jpeg" alt="Produto 1" class="thumb"></td>
+          <td>Chocolate 90g</td>
+          <td>4 BuyatCoins</td>
+          <td><a href="./editar-troca.php" class="btn-editar">Editar</a></td>
+        </tr>
+        <tr>
+          <td><img src="../src/img/OIP (2).jpeg" alt="Produto 2" class="thumb"></td>
+          <td>Pasta de Dente</td>
+          <td>6 BuyatCoins</td>
+          <td><a href="./editar-troca.php" class="btn-editar">Editar</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
       </div>
     </div>
   </div>

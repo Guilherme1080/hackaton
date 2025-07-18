@@ -525,8 +525,9 @@ tr:last-child td {
         <li><a href="./listar-promo.php">🔥 Promoções</a></li>
         <li><a href="./listar-combo.php">🎁 Combos</a></li>
         <li><a href="./listar-moeda.php">💰 Moeda Diária</a></li>
+        <li><a href="./pergunta-dia.php">❓ Pergunta do Dia</a></li>
         <div class="logout">
-            <a href="logout.php">🚪 Sair</a>
+            <a href="../home4.php">🚪 Sair</a>
         </div>
       </ul>
     </aside>
@@ -535,7 +536,7 @@ tr:last-child td {
       <div class="grid-container">
         <!-- Produto -->
         <div class="form-wrapper">
-          <form class="form-section" action="produto_crud.php" method="post" enctype="multipart/form-data">
+          <form class="form-section" action="#" method="post" enctype="multipart/form-data">
             <h3 class="tit">Cadastrar Produto</h3>
 
             <div class="input-box">
@@ -583,14 +584,14 @@ tr:last-child td {
                 <td>KRO Snacks</td>
                 <td>R$ 3,98</td>
                 <td>Snacks KRÓ</td>
-                <td><a href="editar_produto.php?id=1" class="btn-editar">Editar</a></td>
+                <td><a href="./editar-produto.php" class="btn-editar">Editar</a></td>
               </tr>
               <tr>
                 <td><img src="../src/img/coca.jpg" alt="Produto 2" class="thumb"></td>
                 <td>Coca Lata 350ml</td>
                 <td>R$ 5,00</td>
                 <td>Coca Lata 350ml.</td>
-                <td><a href="editar_produto.php?id=2" class="btn-editar">Editar</a></td>
+                <td><a href="./editar-produto.php" class="btn-editar">Editar</a></td>
               </tr>
             </tbody>
           </table>

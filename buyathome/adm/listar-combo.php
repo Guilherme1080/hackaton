@@ -525,8 +525,9 @@ tr:last-child td {
         <li><a href="./listar-promo.php">🔥 Promoções</a></li>
         <li><a href="#">🎁 Combos</a></li>
         <li><a href="./listar-moeda.php">💰 Moeda Diária</a></li>
+        <li><a href="./pergunta-dia.php">❓ Pergunta do Dia</a></li>
         <div class="logout">
-            <a href="logout.php">🚪 Sair</a>
+            <a href="../home4.php">🚪 Sair</a>
         </div>
       </ul>
     </aside>
@@ -535,7 +536,7 @@ tr:last-child td {
       <div class="grid-container">
         <!-- Produto -->
         <div class="form-wrapper">
-                <form class="form-section" action="combo_crud.php" method="post" enctype="multipart/form-data">
+                <form class="form-section" action="#" method="post" enctype="multipart/form-data">
                     <h3 class="tit">Criar Combo Promocional</h3>
 
                     <div class="input-box">
@@ -553,11 +554,6 @@ tr:last-child td {
                         <input type="number" step="0.01" name="preco_combo" id="preco_combo" required>
                     </div>
 
-                    <div class="input-box">
-                        <label for="imagem_combo">Imagem</label>
-                        <input type="file" name="imagem_combo" id="imagem_combo" accept="image/*" required>
-                    </div>
-
                     <button type="submit" class="btn">Criar Combo</button>
                 </form>
             </div>
@@ -569,7 +565,6 @@ tr:last-child td {
           <table>
             <thead>
               <tr>
-                <th>Imagem</th>
                 <th>Nome</th>
                 <th>Produtos</th>
                 <th>Preço Total</th>
@@ -578,18 +573,17 @@ tr:last-child td {
             </thead>
             <tbody>
               <tr>
-                <td><img src="../src/img/baixados.webp" alt="Produto 1" class="thumb"></td>
                 <td>Combo Bom e demais</td>
                 <td>KRO Snacks + Chocolate</td>
                 <td>R$ 12,50</td>
-                <td><a href="editar_produto.php?id=1" class="btn-editar">Editar</a></td>
+                <td><a href="./editar-combo.php" class="btn-editar">Editar</a></td>
               </tr>
               <tr>
-                <td><img src="../src/img/coca.jpg" alt="Produto 2" class="thumb"></td>
+
                 <td>Combo Pague Menos</td>
                 <td>Coca Lata 350ml + Amendoin</td>
                 <td>R$ 12,95</td>
-                <td><a href="editar_produto.php?id=2" class="btn-editar">Editar</a></td>
+                <td><a href="./editar-combo.php" class="btn-editar">Editar</a></td>
               </tr>
             </tbody>
           </table>

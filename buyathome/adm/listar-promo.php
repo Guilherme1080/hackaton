@@ -525,16 +525,17 @@ tr:last-child td {
         <li><a href="">🔥 Promoções</a></li>
         <li><a href="./listar-combo.php">🎁 Combos</a></li>
         <li><a href="./listar-moeda.php">💰 Moeda Diária</a></li>
+        <li><a href="./pergunta-dia.php">❓ Pergunta do Dia</a></li>
       </ul>
       <div class="logout">
-        <a href="logout.php">🚪 Sair</a>
+        <a href="../home4.php">🚪 Sair</a>
     </div>
     </aside>
 
     <div class="forms">
       <div class="grid-container">
         <div class="form-wrapper">
-            <form class="form-section" action="promocao_crud.php" method="post" enctype="multipart/form-data">
+            <form class="form-section" action="#" method="post" enctype="multipart/form-data">
                 <h3 class="tit">Cadastrar Promoção</h3>
 
                 <div class="input-box">
@@ -571,24 +572,24 @@ tr:last-child td {
                 <th>Imagem</th>
                 <th>Titulo</th>
                 <th>Desconto (%)</th>
-                <th>Descrição</th>
+                <th>Preço</th>
                 <th>Ações</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td><img src="imagens/produto1.jpg" alt="Produto 1" class="thumb"></td>
-                <td>Snacks + Coca lata 350ml</td>
-                <td>10%</td>
-                <td>Pulseira feita à mão com pedras naturais.</td>
-                <td><a href="editar_produto.php?id=1" class="btn-editar">Editar</a></td>
+                <td><img src="../src/img/OIP (7).jpg" alt="Produto 1" class="thumb"></td>
+                <td>Nescau 370g</td>
+                <td>20%</td>
+                <td>2,39</td>
+                <td><a href="./editar-promo.php" class="btn-editar">Editar</a></td>
               </tr>
               <tr>
-                <td><img src="imagens/produto2.jpg" alt="Produto 2" class="thumb"></td>
-                <td>Choco + Coca lata 350ml</td>
-                <td>5%</td>
-                <td>Colar delicado com pingente de coração folheado a ouro.</td>
-                <td><a href="editar_produto.php?id=2" class="btn-editar">Editar</a></td>
+                <td><img src="../src/img/OIP (6).jpeg" alt="Produto 2" class="thumb"></td>
+                <td>Biscoito Nestlé</td>
+                <td>25%</td>
+                <td>4,75</td>
+                <td><a href="./editar-promo.php" class="btn-editar">Editar</a></td>
               </tr>
             </tbody>
           </table>

@@ -127,7 +127,7 @@
 
     <div class="promo-list">
       <div class="promo-card">
-        <img src="./src/img/OIP (7).jpeg" alt="Maçã">
+        <img src="./src/img/OIP (7).jpg" alt="Maçã">
         <div class="promo-title">Nescau 370g</div>
         <div class="promo-info">20% de desconto</div>
         <div class="promo-info">R$ 2,39 / unidade</div>

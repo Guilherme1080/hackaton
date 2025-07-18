@@ -120,8 +120,8 @@
 
     .news-card img {
       width: 100%;
-      height: 180px;
-      object-fit: cover;
+      height: 200px;
+      object-fit: contain;
     }
 
     .news-card p {
@@ -140,14 +140,15 @@
         <li><a href="./listar-promo.php">🔥 Promoções</a></li>
         <li><a href="./listar-combo.php">🎁 Combos</a></li>
         <li><a href="./listar-moeda.php">💰 Moeda Diária</a></li>
+        <li><a href="./pergunta-dia.php">❓ Pergunta do Dia</a></li>
       </ul>
       <div class="logout">
-        <a href="logout.php">🚪 Sair</a>
+        <a href="../home4.php">🚪 Sair</a>
       </div>
     </aside>
 
     <div class="content">
-      <h3>📰 Novidades da Loja</h3>
+      <h3> Novidades da Loja</h3>
       <div class="news-gallery">
         <div class="news-card">
           <img src="../src/img/488905391_1040137811505790_7570048791726485930_n.jpg" alt="Produto 1">
@@ -161,23 +162,24 @@
           <img src="../src/img/494621203_1058235353029369_3041224476247037310_n.jpg" alt="Combo 3">
           <p>Compre mais por menos com nossos combos.</p>
         </div>
+      </div>
 
-        <h3>🆕 Outras Novidades</h3>
-        <div class="news-gallery">
-            <div class="news-card">
-                <img src="https://via.placeholder.com/300x180?text=Nova+Entrega" alt="Nova Entrega">
-                <p>Agora entregamos até as 22h em bairros selecionados!</p>
-            </div>
-            <div class="news-card">
-                <img src="https://via.placeholder.com/300x180?text=App+Atualizado" alt="App Atualizado">
-                <p>Aplicativo atualizado com novas funcionalidades.</p>
-            </div>
-            <div class="news-card">
-                <img src="https://via.placeholder.com/300x180?text=Loja+Nova" alt="Loja Nova">
-                <p>Nova loja física em breve no centro da cidade!</p>
-            </div>
+      <h3> Outras Novidades</h3>
+      <div class="news-gallery">
+        <div class="news-card">
+          <img src="../src/img/OIP (14).jpeg" alt="Mais Vendido">
+          <p>Produto mais vendido da semana: <strong>Água de Coco Copra 1L</strong>.</p>
+        </div>
+        <div class="news-card">
+          <img src="../src/img/OIP (4).jpeg" alt="Combo Popular">
+          <p>Combo mais pedido: <strong>Café + Pão de Queijo + Suco</strong> com 30% de desconto.</p>
+        </div>
+        <div class="news-card">
+          <img src="../src/img/557250.png" alt="Top Categoria">
+          <p>Categoria mais acessada pelos clientes: <strong>Refrigerantes</strong>.</p>
         </div>
       </div>
     </div>
+  </div>
 </body>
 </html>
